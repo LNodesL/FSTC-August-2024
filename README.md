@@ -3,11 +3,19 @@ Fallen Scantime Crypter: August 2024
 
 ## Notes
 
-Downloads: https://github.com/LNodesL/FSTC-August-2024/raw/218a78376b7249fc6231fd96a04827e1ffbfae3d/resources/Payload-Demo.fstc
-- Hello World demo payload in the repo resources/ folder
+Download encrypted file from URL 
+
+Decrypt the file & save to disk
 
 Loads ntdll from disk
 
 Maps sections between new ntdll & hooked ntdll / unhooks
 
 Runs PE from download in a new process
+
+
+## Future Development
+
+- save to tmp file instead of to cwd
+
+- allow builder to modify the final FSTC.exe program's resources or other data to make it easier to build for a new payload/URL without re-compiling
