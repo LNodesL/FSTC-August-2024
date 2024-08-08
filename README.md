@@ -11,7 +11,11 @@ Loads ntdll from disk
 
 Maps sections between new ntdll & hooked ntdll / unhooks
 
-Runs PE from download in a new process
+Runs PE (from the download) in a new process
+
+Scantime only
+
+For personal use & research only
 
 ## Usage
 
