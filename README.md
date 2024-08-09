@@ -45,6 +45,15 @@ BYTE iv[] = { 0x2d, 0xb4, 0xa8, 0xab, 0x77, 0x7b, 0x42, 0x84, 0x80, 0x7c, 0xb9, 
 
 Now compile FSTC, which will download your payload from the URL, decrypt, attempt to unhook ntdll, and create a process for the PE as-is.
 
+## Versions
+
+0.0.2 - Current
+- main branch
+
+0.0.1 - Does not use memory method, drops file to current working directory, and uses tmp process
+- https://github.com/LNodesL/FSTC-August-2024/tree/drop-file-run-process
+- 
+
 
 ## Future Development
 
