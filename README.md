@@ -52,11 +52,8 @@ Now compile FSTC, which will download your payload from the URL, decrypt, attemp
 
 0.0.1 - Does not use memory method, drops file to current working directory, and uses tmp process
 - https://github.com/LNodesL/FSTC-August-2024/tree/drop-file-run-process
-- 
 
 
 ## Future Development
-
-- save to tmp file instead of to cwd
 
 - allow builder to modify the final FSTC.exe program's resources or other data to make it easier to build for a new payload/URL without re-compiling
