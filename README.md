@@ -11,9 +11,7 @@ Loads ntdll from disk
 
 Maps sections between new ntdll & hooked ntdll / unhooks
 
-Runs PE (from the download) in a new process
-
-Scantime only
+Injects the original exe program to memory
 
 For personal use & research only
 
