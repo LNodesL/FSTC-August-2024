@@ -47,7 +47,7 @@ Now compile FSTC, which will download your payload from the URL, decrypt, attemp
 
 ## Versions
 
-0.0.2 - Current
+0.0.2 - Uses memory method, to download, decrypt, and inject the original program to memory without saving to disk
 - main branch
 
 0.0.1 - Does not use memory method, drops file to current working directory, and uses tmp process
